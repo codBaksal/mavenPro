@@ -26,7 +26,7 @@
 	
 	<!-- 정적(statical) 리소스(예:js, css 등)를 서비스 시 이 명령을 통해 접근가능-->
 	<!-- 아래 지정해준 디렉토리에 정적 리소스 파일들이 있으면 된다. -->
-<!-- 	<mvc:resources location="/assets/" mapping="/assets/**"></mvc:resources> -->
+	<mvc:resources location="/statics/" mapping="/statics/**"></mvc:resources>
 	
 	<!-- use-default-filters는 기본 true 디폴트(@Component, @Controller, @Service, @Repository) -->
 	<!-- false일 경우는 디폴트 어노테이션 스캔하지 않음, 그래서 커스터마이징 할 수 있음 -->
